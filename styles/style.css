@@ -85,11 +85,11 @@ header .header__logo img {
 }
 
 .cover .cover__title>h2 {
-  padding-bottom: 28px;
+  padding-bottom: 20px;
 }
 
-.cover .cover__title>h2:last-child {
-  padding-top: 9px;
+.cover span {
+  letter-spacing: 60px;
 }
 
 .cover .cover__title .first-word {
@@ -104,7 +104,7 @@ header .header__logo img {
   font-size: 100px;
   line-height: 100px;
   text-align: center;
-  margin-right: -0.3em;
+  margin-right: em;
 }
 
 .cover .cover__title .third-word {
@@ -120,6 +120,7 @@ header .header__logo img {
   flex-direction: row;
   justify-content: space-between;
   font-size: 22px;
+  padding-left: 28px;
 }
 
 .cover .description .description-text {
@@ -159,7 +160,7 @@ header .header__logo img {
   flex-direction: column;
   justify-content: space-between;
   flex: 1 1 0;
-  height: 600px;
+  height: 565px;
   padding: 50px 40px;
   color: white;
 }
@@ -213,7 +214,7 @@ header .header__logo img {
 .about {
   padding: 0px 24px;
   margin-bottom: 180px;
-  margin-top: 125px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-between;
 }
@@ -266,12 +267,11 @@ footer {
 
 footer address {
   line-height: 25px;
-  width: 265px;
+  width: 240px;
 }
 
 footer nav {
   text-align: center;
-  padding-right: 23px;
 }
 
 footer nav ul {
