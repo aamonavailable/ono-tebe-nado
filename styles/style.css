@@ -29,11 +29,11 @@ header {
   gap: 37px;
 }
 
-header:first-child>a {
+header:first-child>div {
   margin-right: auto;
 }
 
-header:last-child>a {
+header:last-child>div {
   margin-left: auto;
 }
 
@@ -50,21 +50,17 @@ header nav ul li:first-child {
   list-style: none;
 }
 
-.header__links-list-item_no-bullit {
-  text-decoration: none;
-}
-
-header .header__logo {
+header .logo-container {
   height: 105px;
   width: 148px;
 }
 
-header .header__logo img {
+header .logo-container img {
   height: 100%;
 }
 
 .cover {
-  width: 100%;
+  width: 1100px;
   height: 757px;
   padding: 165px 50px 50px;
   display: flex;
@@ -72,42 +68,42 @@ header .header__logo img {
   justify-content: space-between;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/cover.jpg");
+    url("/images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.cover .cover__title {
+.cover .overlay-h2 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 30px;
 }
 
-.cover .cover__title>h2 {
-  padding-bottom: 20px;
+.cover .overlay-h2>h2 {
+  padding-bottom: 28px;
 }
 
-.cover span {
-  letter-spacing: 60px;
+.cover .overlay-h2>h2:last-child {
+  padding-top: 9px;
 }
 
-.cover .cover__title .first-word {
+.cover .overlay-h2 .first-word {
   font-weight: 700px;
   font-size: 100px;
   line-height: 115px;
   text-align: left;
 }
 
-.cover .cover__title .second-word {
+.cover .overlay-h2 .second-word {
   font-weight: 700px;
   font-size: 100px;
   line-height: 100px;
   text-align: center;
-  margin-right: em;
+  margin-right: -0.3em;
 }
 
-.cover .cover__title .third-word {
+.cover .overlay-h2 .third-word {
   font-weight: 700px;
   font-size: 100px;
   line-height: 100px;
@@ -120,10 +116,9 @@ header .header__logo img {
   flex-direction: row;
   justify-content: space-between;
   font-size: 22px;
-  padding-left: 28px;
 }
 
-.cover .description .description-text {
+.cover .description .subline {
   line-height: 28px;
   word-spacing: 0.85em;
   font-weight: 400;
@@ -155,19 +150,19 @@ header .header__logo img {
   margin: 25px 0px;
 }
 
-.blocks article {
+.blocks div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex: 1 1 0;
-  height: 565px;
+  height: 600px;
   padding: 50px 40px;
   color: white;
 }
 
 .block-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/card-lot-01.jpg");
+    url("/images/card-lot-01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +170,7 @@ header .header__logo img {
 
 .block-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/card-lot-02.jpg");
+    url("images/card-lot-02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +178,7 @@ header .header__logo img {
 
 .block-3 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/card-lot-03.jpg");
+    url("/images/card-lot-03.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,12 +195,12 @@ header .header__logo img {
   font-size: 20px;
 }
 
-.lots-h {
+.lots h2 {
   font-size: 40px;
   padding-left: 40px;
 }
 
-.lots__look-more-link {
+.a-view-more {
   font-size: 20px;
   padding-left: 40px;
   padding-top: 5px;
@@ -214,12 +209,12 @@ header .header__logo img {
 .about {
   padding: 0px 24px;
   margin-bottom: 180px;
-  margin-top: 150px;
+  margin-top: 125px;
   display: flex;
   justify-content: space-between;
 }
 
-.about__logo {
+.jopa {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,12 +227,12 @@ header .header__logo img {
   margin-left: 47px;
 }
 
-.about__logo img {
+.jopa img {
   width: 148px;
   height: 114px;
 }
 
-.about__column {
+.asd {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -245,7 +240,7 @@ header .header__logo img {
   gap: 26px;
 }
 
-.about-title {
+.about h5 {
   font-size: 40px;
   padding-bottom: 75px;
 }
@@ -267,11 +262,13 @@ footer {
 
 footer address {
   line-height: 25px;
-  width: 240px;
+  height: 98px;
+  width: 265px;
 }
 
 footer nav {
   text-align: center;
+  padding-right: 23px;
 }
 
 footer nav ul {
