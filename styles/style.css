@@ -85,7 +85,6 @@ header .header__logo {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  font-weight: 700px;
   font-size: 100px;
   line-height: 100px;
 }
@@ -101,7 +100,7 @@ header .header__logo {
   margin-right: -0.3em;
 }
 
-.aligned-text-right  {
+.aligned-text-right {
   text-align: right;
   margin-right: -0.3em;
   margin-top: 10px;
