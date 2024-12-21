@@ -29,11 +29,11 @@ header {
   gap: 37px;
 }
 
-header:first-child>div {
+header:first-child>a {
   margin-right: auto;
 }
 
-header:last-child>div {
+header:last-child>a {
   margin-left: auto;
 }
 
