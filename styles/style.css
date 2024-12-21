@@ -257,6 +257,7 @@ header .header__logo {
 
 footer {
   width: 100%;
+  min-height: 180px;
   display: flex;
   flex: 1;
   justify-content: space-between;
